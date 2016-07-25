@@ -1,18 +1,17 @@
 # MDC Logging in Django/Python
-MDC logging now available in python. https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/MDC.html
+``MDC logging`` now available in python. https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/MDC.html
 
 ##Setup
 
 1. Add to requirements file or simply add using pip
-
+.. code-block::python
     `pip install mdc-logging`
 
 2. Add to INSTALLED_APP if using django
-    `
-    INSTALLED_APPS = [
+
+    `INSTALLED_APPS = [
         "mdc_logging",
-    ]
-    `
+    ]`
 
 2. Add logging formatter
 
@@ -23,6 +22,7 @@ MDC logging now available in python. https://logging.apache.org/log4j/1.2/apidoc
             }
         }
     `
+    
     Add this formatter to logger handlers
     
 ##Usage
