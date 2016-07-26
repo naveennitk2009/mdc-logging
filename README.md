@@ -5,7 +5,7 @@
 
 1. Add to requirements file or simply add using pip
 
-    `pip install mdc-logging`
+    `pip install git+ssh://git@github.com:grofers/mdc-logging.git`
 
 2. Add to INSTALLED_APP if using django
 
