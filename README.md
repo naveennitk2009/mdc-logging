@@ -1,4 +1,6 @@
 # MDC Logging in Django/Python
+NOTE - A lot of code and idea is taken from mdaniel's mdc logging implementation for python. - https://gist.github.com/mdaniel/8347533
+
 ``MDC logging`` now available in python. https://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/MDC.html
 
 ##Setup
